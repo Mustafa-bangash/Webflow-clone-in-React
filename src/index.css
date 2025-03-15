@@ -1,0 +1,17 @@
+@font-face{
+    font-family: Didot;
+    
+    src: url("../src/images/fonts/5d0de15d8b4b25a8f719261f_Didot-01.ttf")
+}
+@font-face{
+    font-family: "Ageo Regular";
+    src: url("../src/images/fonts/5d0debfd8a90680cb400678d_AgeoPersonalUse\ \(1\).otf")
+}
+
+
+@import "tailwindcss";
+
+@theme{
+    --font-didot:Didot,"sans-serif";
+    --font-Ageo:"Ageo Regular";
+}
