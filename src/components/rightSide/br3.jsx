@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import frontBottle from "../../images/bottleFront.png";
 import backBottle from "../../images/bottleBack.png";
-
 function Br3() {
   const [hover, setHover] = useState(false);
-
   const frontBottleVariants = {
     initial: { opacity: 1, x: 0, rotateZ: 0 },
     hover: {
@@ -46,7 +44,7 @@ function Br3() {
         No2
       </h1>
 
-      {/* Front Bottle - Moves Left & Disappears */}
+      
       <motion.img
         src={frontBottle}
         alt="Front Bottle"
@@ -56,7 +54,7 @@ function Br3() {
         animate={hover ? "hover" : "reset"}
       />
 
-      {/* Back Bottle - Moves In from Right & Tilts */}
+      
       <motion.img
         src={backBottle}
         alt="Back Bottle"

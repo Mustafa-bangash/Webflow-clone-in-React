@@ -1,6 +1,6 @@
 import React from 'react'
 import arrow from '../../images/arrow.png';
-function br2() {
+function Br2() {
   return (
     <div>
           <div className='w-[50vw] h-[100vh] bg-[url("./images/greenOrange.jpg")] bg-cover bg-center '>
@@ -25,4 +25,4 @@ function br2() {
   )
 }
 
-export default br2
+export default Br2

@@ -1,26 +1,3 @@
-// import React from 'react'
-// import frontBottle from '../../images/bottleFront.png'
-// import backBottle from '../../images/bottleBack.png'
-// function br1() {
-//   return (
-  
-   
- 
-//           <div>
-//                <div className='w-[50vw] h-[100vh] bg-[#283546]'>
-//                  <div className='p-25 flex items-center justify-center'>
-//                    <h1 className='font-didot text-[18vw]  text-[hsla(0,0%,100%,0.1)] pt-20'>No2</h1>
-//                 <img src={frontBottle} alt="" className='w-[150px] h-[590px] absolute mt-15'/>
-//                 <img src={backBottle} alt="" className='w-[150px] h-[590px] hidden absolute mt-15'/>
-                
-//                  </div>
-                
-//                </div>
-//            </div>
-//      )
-//    }
-// export default br1
-
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -70,7 +47,7 @@ function Br1() {
         No2
       </h1>
 
-      {/* Front Bottle - Moves Left & Disappears */}
+      
       <motion.img
         src={frontBottle}
         alt="Front Bottle"
@@ -80,7 +57,7 @@ function Br1() {
         animate={hover ? "hover" : "reset"}
       />
 
-      {/* Back Bottle - Moves In from Right & Tilts */}
+      
       <motion.img
         src={backBottle}
         alt="Back Bottle"
