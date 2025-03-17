@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import frontBottle from "../../images/bottleFront.png";
 import backBottle from "../../images/bottleBack.png";
-
+import '../../responsive.css';
 function Br1() {
   const [hover, setHover] = useState(false);
 
@@ -43,7 +43,7 @@ function Br1() {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <h1 className="font-didot text-[18vw] text-[hsla(0,0%,100%,0.1)] absolute top-10">
+      <h1 className=" bText font-didot text-[18vw] text-[hsla(0,0%,100%,0.1)] absolute top-10">
         No2
       </h1>
 

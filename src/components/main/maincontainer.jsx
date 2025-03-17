@@ -6,6 +6,7 @@ import "./maincontainer.css";
 import { X } from "lucide-react";
 import { Equal } from "lucide-react";
 import logo from './../../images/logo-dark.png'
+import '../../responsive.css';
 
 function Maincontainer() {
  const [menuOpen, setMenuOpen] = useState(false);

@@ -1,6 +1,7 @@
 import Bx1 from './Br1'
 import Bx2 from './Br2'
 import Bx3 from './Br3'
+import '../../responsive.css';
 function mainRight() {   
   return (
     <div>
